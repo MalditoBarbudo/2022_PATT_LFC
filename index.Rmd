@@ -1,0 +1,217 @@
+---
+title: "Laboratori Forestal Català"
+subtitle: "les dades dels boscos de Catalunya en un clic"
+author: "Víctor Granda"
+institute: "Ecosystem Modelling Facility - CREAF"
+date: "2022/02/16"
+output:
+  xaringan::moon_reader:
+    css: ["custom.css", "default"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+layout: true
+  
+<div class="my-header">
+  <div class="header-container">
+    <div class="header-title">
+      Laboratori Forestal Català
+    </div>
+    <img class="header-logo" src="resources/img/emf_logo.svg" height="30">
+  </div>
+  <div class ="emf-separator"><img src="resources/img/empty.svg" width="1"></div>
+</div>
+
+<div class="my-footer">
+  <div class="footer-container">
+    <p class="footer-author">
+      Víctor Granda
+    </p>
+    <p class="footer-date">
+      16/02/2022
+    </p>
+  </div>
+</div> 
+
+---
+
+## Laboratori Forestal Català
+
+.center[
+```{r lfc_logo, echo = FALSE, out.width=500}
+knitr::include_graphics(fs::path('resources', 'img', 'tree_siluhette.png'))
+```
+
+https://laboratoriforestal.creaf.cat/
+]
+
+El Laboratori Forestal Català és una iniciativa conjunta del CREAF i el Centre de Ciència i Tecnologia Forestal de Catalunya (CTFC) per posar a disposició del públic, expert o principiant, la informació i les dades relacionades amb els boscos generats en els dos centres de recerca.
+
+
+
+
+---
+
+## Què oferim?
+
+```{r ifn_mini, echo = FALSE, out.width=800}
+knitr::include_graphics(fs::path('resources', 'img', 'ifn_app_intro.png'))
+```
+
+### IFN app
+
+Accedeix, visualitza i descàrrega les dades de l’Inventari Forestal Nacional a Catalunya
+
+
+---
+
+## Què oferim?
+
+```{r lidar_mini, echo = FALSE, out.width=800}
+knitr::include_graphics(fs::path('resources', 'img', 'lidar_app_intro.png'))
+```
+
+### LiDAR app
+
+Accedeix, visualitza i calcula variables forestals a partir de dades LiDAR a Catalunya
+
+---
+
+## Què oferim?
+
+```{r fes_mini, echo = FALSE, out.width=800}
+knitr::include_graphics(fs::path('resources', 'img', 'fes_app_intro.png'))
+```
+
+### FES app
+
+Visualitza y descarrega les dades dels serveis ecosistemics de los boscos de Catalunya
+
+---
+
+## Què oferim?
+
+```{r deboscat_mini, echo = FALSE, out.width=800}
+knitr::include_graphics(fs::path('resources', 'img', 'deboscat_app_intro.png'))
+```
+
+### Deboscat app
+
+Visualitza y descarrega informació sobre els episodis de decaïment forestal a Catalunya en relació a la sequera
+
+---
+
+## Què oferim?
+
+```{r meteoland_mini, echo = FALSE, out.width=800}
+knitr::include_graphics(fs::path('resources', 'img', 'meteoland_app_intro.png'))
+```
+
+### Meteoland app
+
+Estimacions de meteorologia diària per a tot Catalunya
+
+---
+
+## Què oferim?
+
+```{r catdrought_mini, echo = FALSE, out.width=800}
+knitr::include_graphics(fs::path('resources', 'img', 'catdrought_app_intro.png'))
+```
+
+### Catdrought app
+
+Estimacions diàries del balanç hídric i la humitat del sòl dels boscos de Catalunya
+
+---
+
+## Què oferim?
+
+```{r allometrapp_mini, echo = FALSE, out.width=800}
+knitr::include_graphics(fs::path('resources', 'img', 'allometrapp_app_intro.png'))
+```
+
+### Allometrapp
+
+Calcula noves variables a partir d’equacions dissenyades per espècies, àmbits geogràfics i nivells (per a tot Espanya)
+
+---
+class: inverse, center, middle
+
+## IFN App
+
+```{r ifn_app, echo = FALSE, out.width=150}
+knitr::include_graphics(fs::path('resources', 'img', 'ifn_mini.png'))
+```
+
+https://laboratoriforestal.creaf.cat/nfi_app/
+
+---
+class: inverse, center, middle
+
+## LiDAR App
+
+```{r lidar_app, echo = FALSE, out.width=150}
+knitr::include_graphics(fs::path('resources', 'img', 'lidar_mini.png'))
+```
+
+https://laboratoriforestal.creaf.cat/lidarapp/
+
+---
+class: inverse, center, middle
+
+## FES App
+
+```{r fes_app, echo = FALSE, out.width=150}
+knitr::include_graphics(fs::path('resources', 'img', 'fes_mini.png'))
+```
+
+https://laboratoriforestal.creaf.cat/fes_app/
+
+---
+class: inverse, center, middle
+
+## DeBosCat App
+
+```{r deboscat_app, echo = FALSE, out.width=150}
+knitr::include_graphics(fs::path('resources', 'img', 'deboscat_mini.png'))
+```
+
+https://laboratoriforestal.creaf.cat/deboscat_app/
+
+---
+class: inverse, center, middle
+
+## Meteoland App
+
+```{r meteoland_app, echo = FALSE, out.width=150}
+knitr::include_graphics(fs::path('resources', 'img', 'meteoland_mini.png'))
+```
+
+https://laboratoriforestal.creaf.cat/meteoland_app/
+
+---
+class: inverse, center, middle
+
+## CatDrought App
+
+```{r catdrought_app, echo = FALSE, out.width=150}
+knitr::include_graphics(fs::path('resources', 'img', 'catdrought_mini.png'))
+```
+
+https://laboratoriforestal.creaf.cat/catdroughtapp/
+
+---
+class: inverse, center, middle
+
+## AllometrApp
+
+```{r allometrapp_app, echo = FALSE, out.width=150}
+knitr::include_graphics(fs::path('resources', 'img', 'allometrapp_mini.png'))
+```
+
+https://laboratoriforestal.creaf.cat/allometrapp/

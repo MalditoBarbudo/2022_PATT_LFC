@@ -1,0 +1,96 @@
+div.my-header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-title {
+  margin-top: 2px;
+  padding-left: 2rem;
+}
+
+.header-logo {
+  margin-top: 2px;
+  padding-right: 2rem;
+  margin-left: auto;
+}
+
+.emf-separator {
+  height: 4px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  background-image: linear-gradient(90deg, #13ABCD -0.4%, #E9E165 100.4%);
+  background-blend-mode: normal, overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+div.my-footer {
+    background: rgba(255, 255, 255, 0.8);
+    background-image: linear-gradient(90deg, #13ABCD -0.4%, #E9E165 100.4%);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-author {
+    margin: 0px;
+    font-size: 10pt;
+    position: relative;
+    left: 15px;
+}
+
+.footer-date {
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10pt;
+    position: relative;
+}
+
+.remark-slide-number {
+  display: none;
+}
+
+body {
+   font-family: 'Roboto', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  font-weight: normal;
+}
+
+.remark-slide-content {
+    background-color: #F8F9FA;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: table-cell;
+    font-size: 20px;
+    padding: 1em 4em 1em 4em;
+}
+
+.inverse {
+    background-color: #272822;
+    color: #d6d6d6;
+    text-shadow: 0 0 20px #333;
+}

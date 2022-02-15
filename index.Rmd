@@ -148,7 +148,9 @@ class: inverse, center, middle
 knitr::include_graphics(fs::path('resources', 'img', 'ifn_mini.png'))
 ```
 
-https://laboratoriforestal.creaf.cat/nfi_app/
+App: https://laboratoriforestal.creaf.cat/nfi_app/  
+Tutorial: https://laboratoriforestal.creaf.cat/tutorial/ifn_app/
+
 
 ---
 class: inverse, center, middle
@@ -159,7 +161,8 @@ class: inverse, center, middle
 knitr::include_graphics(fs::path('resources', 'img', 'lidar_mini.png'))
 ```
 
-https://laboratoriforestal.creaf.cat/lidarapp/
+App: https://laboratoriforestal.creaf.cat/lidarapp/  
+Tutorial: https://laboratoriforestal.creaf.cat/tutorial/lidar_app/
 
 ---
 class: inverse, center, middle
@@ -170,7 +173,8 @@ class: inverse, center, middle
 knitr::include_graphics(fs::path('resources', 'img', 'fes_mini.png'))
 ```
 
-https://laboratoriforestal.creaf.cat/fes_app/
+App: https://laboratoriforestal.creaf.cat/fes_app/  
+Tutorial: https://laboratoriforestal.creaf.cat/tutorial/fes_app/
 
 ---
 class: inverse, center, middle
@@ -181,7 +185,8 @@ class: inverse, center, middle
 knitr::include_graphics(fs::path('resources', 'img', 'deboscat_mini.png'))
 ```
 
-https://laboratoriforestal.creaf.cat/deboscat_app/
+App: https://laboratoriforestal.creaf.cat/deboscat_app/  
+Tutorial: https://laboratoriforestal.creaf.cat/tutorial/deboscat_app/
 
 ---
 class: inverse, center, middle
@@ -192,7 +197,8 @@ class: inverse, center, middle
 knitr::include_graphics(fs::path('resources', 'img', 'meteoland_mini.png'))
 ```
 
-https://laboratoriforestal.creaf.cat/meteoland_app/
+App: https://laboratoriforestal.creaf.cat/meteoland_app/  
+Tutorial: https://laboratoriforestal.creaf.cat/tutorial/meteoland_app/
 
 ---
 class: inverse, center, middle
@@ -203,7 +209,8 @@ class: inverse, center, middle
 knitr::include_graphics(fs::path('resources', 'img', 'catdrought_mini.png'))
 ```
 
-https://laboratoriforestal.creaf.cat/catdroughtapp/
+App: https://laboratoriforestal.creaf.cat/catdroughtapp/  
+Tutorial: https://laboratoriforestal.creaf.cat/tutorial/catdrought_app/
 
 ---
 class: inverse, center, middle
@@ -214,4 +221,5 @@ class: inverse, center, middle
 knitr::include_graphics(fs::path('resources', 'img', 'allometrapp_mini.png'))
 ```
 
-https://laboratoriforestal.creaf.cat/allometrapp/
+App: https://laboratoriforestal.creaf.cat/allometrapp/  
+Tutorial: https://laboratoriforestal.creaf.cat/tutorial/allometr_app/
